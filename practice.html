@@ -6,25 +6,59 @@
         <a href="/">RUN BUDDY</a>
     </h1>
     <nav>
-        <!-- Unordered listelemet -->
         <ul>
-            <!-- List item element-->
-            <il>
-                <!-- Anchor elemet -->
-                <a href="#what-we-do">What We Do</a>
-            </il>
-            
-            <il>
-                <a href="#your-trainers">Your Trainers</a>
-            </il>
+        <!-- Unordered listelemet -->
+           
+        <il>
+            <!-- Anchor elemet -->
+             <a href="#what-we-do">What We Do</a>
+        </il>
 
-            <il>
-                <a href="#reach-out">Reach Out</a>
-            </il>
-        </ul>
+        <il>
+             <a href="#your-trainers">Your Trainers</a>
+        </il>
+
+        <il>
+            <a href="#reach-out">Reach Out</a>
+        </il>
+    </ul>
     </nav>
 </header>
 
+<section class="hero">
+    <div class="hero-form">
+        <h3>Get Started Today</h3>
+        <p>Fill out this form and one of our trainers will schedule a consult</p>
+    <!-- Add form elemet -->
+    <form>
+        <label for="name">Enter full name</label>
+        <input type="text" placeholder="Your Name" name="name" id="name" />
+        <label for="email">Ented email address</label>
+        <input type="text" placeholder="Email Addres" name="email" id="email" />
+        <label for="phone">Enter a telephone number:</label>
+        <input type="text" placegolder="Phone Number" name="phone" id="phone"/>
+        <p>
+            Have you worked out with a trainer before?
+            <input type="radio" name="trainer-confirm" id="trainer-yes" />
+            <label for="trainer-yes">Yes</label>
+            <input type="radio" name="trainer-confirm" id="trainer-no" />
+            <label for="trainer-no">No</label>
+        </p>
+        <p>
+            <label for="checkbox">
+                I acknowlage that i am at least 18 years old of age.
+            </label>
+            <input type="checkbox" name="age-confirm" id="checkbox" />
+        </p>
+        <p>
+            <button type="submit">
+                Get running!
+            </button>
+        </p>
+    </form>   
+    </div>
+</section>
+    
 <!-- hero/jumbotron -->
 <section>
 </section>
@@ -32,11 +66,38 @@
 <!-- "what we do" section -->
 <section>
     <h2>What We Do</h2>
+    <p>
+        bucher selfies chambray shabby chic gentrify readymade yr Echo Park XOX
+    </p>
 </section>
 
 <!-- "What we do" section -->
-<section>
+<section id="what-we-do">
     <h2>What You Do</h2>
+    <div>
+        <img src="./assets/css/immages/step-1.svg" alt="" />
+        <h3>Step 1: Fill Out the Form Above.</h3>
+        <p>You're already here, so why no?</p>
+    </div>
+
+    <div>
+        <img src="./assets/css/immages/step-2.svg" alt="" />
+        <h3>Step 2: Consult whiy One of Our Trainers.</h3>
+        <p>Are you here to build muscle? lose weight, or just feel good?</p>
+    </div>
+
+    <div>
+        <img src="./assets/css/immages/step-3.svg" alt="" />
+        <h3>Step 3: Get Running.</h3>
+        <p>Hit the ground running (literally) once your trainer lays out your paln</p>
+    </div>
+
+    <div>
+        <img src="./assets/css/immages/step-4.svg" alt="">
+        <h3>Step 4: See Results.</h3>
+        <p>Bi-weekly checkins with your trainer will keep you focused</p>
+    </div>
+   
 </section>
 
 <!--"meet the triners" section -->
@@ -52,4 +113,8 @@
 <!-- footer -->
 <footer>
     <h2> Made With Love by Run Buddy.</h2>
+    <div>
+        <a href="#">Read Our Privacy Policy</a><br />
+        &copy; 2019 Run Buddy, Inc.
+    </div>
 </footer>
